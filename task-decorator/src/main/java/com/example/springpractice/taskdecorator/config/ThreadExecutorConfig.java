@@ -33,7 +33,6 @@ public class ThreadExecutorConfig {
     }
 
     @Profile("with-decorator")
-    @Order(1)
     @Bean
     public Executor taskExecutorWithDecorator(TaskDecorator taskDecorator) {
         log.info("task Executor with decorator set...");
@@ -48,7 +47,6 @@ public class ThreadExecutorConfig {
     }
 
     @Profile("with-decorator")
-    @Order(0)
     @Bean
     public TaskDecorator taskDecorator() {
         return runnable -> {
