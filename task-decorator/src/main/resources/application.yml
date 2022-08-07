@@ -1,0 +1,7 @@
+logging:
+  level:
+    com.example.springpractice: debug
+
+spring:
+  profiles:
+#    active: with-decorator

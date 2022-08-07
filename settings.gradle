@@ -1,0 +1,4 @@
+rootProject.name = 'spring-practice'
+include 'src:main:task-decorator'
+include 'task-decorator'
+
