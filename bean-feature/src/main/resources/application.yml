@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: foo-active
+logging:
+  level:
+    com.example.springpractice: debug
+
+---
+spring:
+  config:
+    activate:
+      on-profile: foo-active
+
+foo.active: true
