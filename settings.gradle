@@ -1,4 +1,6 @@
 rootProject.name = 'spring-practice'
 include 'task-decorator'
 include 'bean-feature'
+include 'data-mongodb'
+include 'base'
 
